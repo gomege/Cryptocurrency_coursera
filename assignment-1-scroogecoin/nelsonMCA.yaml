@@ -1,0 +1,1284 @@
+ID: '01'
+version: 1.0.0
+_schema-version: '3.1'
+parameters:
+  description: first version of portal migration
+  hcp-deployer-version: 1.1.0
+  title: YMtransition
+modules:
+- name: delegatedadmin
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: delegatedadmin
+    html5-app-version: 1.0.31
+- name: kro50647
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro50647
+    html5-app-version: 1.0.1
+- name: kro50667
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro50667
+    html5-app-version: 1.0.6
+- name: kro55225
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55225
+    html5-app-version: 1.0.11
+- name: kro55226
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55226
+    html5-app-version: 1.0.0
+- name: kro55226i
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55226i
+    html5-app-version: 1.0.4
+- name: kro55239
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55239
+    html5-app-version: 1.0.4
+- name: kro55269
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55269
+    html5-app-version: 1.0.5
+- name: kro55375
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55375
+    html5-app-version: 1.0.3
+- name: kro55378
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55378
+    html5-app-version: 1.0.2
+- name: kro55397l
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55397l
+    html5-app-version: 1.0.8
+- name: kro55399s
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55399s
+    html5-app-version: 1.0.5
+- name: kro55399v
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55399v
+    html5-app-version: 1.0.3
+- name: kro55407c
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55407c
+    html5-app-version: 1.0.8
+- name: kro55407e1
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55407e1
+    html5-app-version: 1.0.1
+- name: kro55407e3
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55407e3
+    html5-app-version: 1.0.0
+- name: kro55407f
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55407f
+    html5-app-version: 1.0.5
+- name: kro55407i1
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55407i1
+    html5-app-version: 1.0.2
+- name: kro55408b
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55408b
+    html5-app-version: 1.0.19
+- name: kro55408ba
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55408ba
+    html5-app-version: 1.0.5
+- name: kro55409i1
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55409i1
+    html5-app-version: 1.0.3
+- name: kro55409i3
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55409i3
+    html5-app-version: 1.0.3
+- name: kro55437b
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55437b
+    html5-app-version: 1.0.4
+- name: kro55477
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55477
+    html5-app-version: 1.0.0
+- name: kro55479
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55479
+    html5-app-version: 1.0.14
+- name: kro55479s
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55479s
+    html5-app-version: 1.0.1
+- name: kro55519
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55519
+    html5-app-version: 1.0.12
+- name: kro55527hn
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55527hn
+    html5-app-version: 1.0.52
+- name: kro55559
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55559
+    html5-app-version: 1.0.4
+- name: kro55577
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55577
+    html5-app-version: 1.0.15
+- name: kro55587te
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55587te
+    html5-app-version: 1.0.9
+- name: kro55599
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro55599
+    html5-app-version: 1.0.10
+- name: kro57801
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57801
+    html5-app-version: 1.0.64
+- name: kro57801a
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57801a
+    html5-app-version: 1.0.7
+- name: kro57801b
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57801b
+    html5-app-version: 1.0.3
+- name: kro57803
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57803
+    html5-app-version: 1.0.3
+- name: kro57804
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57804
+    html5-app-version: 1.0.3
+- name: kro57805
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57805
+    html5-app-version: 1.0.2
+- name: kro57806
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57806
+    html5-app-version: 1.0.2
+- name: kro57808
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57808
+    html5-app-version: 1.0.6
+- name: kro57817
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57817
+    html5-app-version: 1.0.4
+- name: kro57817a
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57817a
+    html5-app-version: 1.0.2
+- name: kro57817ap
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57817ap
+    html5-app-version: 1.0.0
+- name: kro57857
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57857
+    html5-app-version: 1.0.3
+- name: kro57887
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57887
+    html5-app-version: 1.0.1
+- name: kro57917
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57917
+    html5-app-version: 1.0.5
+- name: kro57977
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro57977
+    html5-app-version: 1.0.1
+- name: kro58007
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro58007
+    html5-app-version: 1.0.22
+- name: kro58087
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro58087
+    html5-app-version: 1.0.21
+- name: kro5carhis
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5carhis
+    html5-app-version: 1.0.11
+- name: kro5ladri
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5ladri
+    html5-app-version: 1.0.7
+- name: kro5lapar
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5lapar
+    html5-app-version: 1.0.7
+- name: kro5lappc
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5lappc
+    html5-app-version: 1.0.23
+- name: kro5lappv
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5lappv
+    html5-app-version: 1.0.22
+- name: kro5menude
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5menude
+    html5-app-version: 1.0.46
+- name: kro5menufr
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5menufr
+    html5-app-version: 1.0.18
+- name: kro5sc
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5sc
+    html5-app-version: 1.0.25
+- name: kro5userattributes
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5userattributes
+    html5-app-version: 1.0.2
+- name: kro5venhis
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5venhis
+    html5-app-version: 1.0.9
+- name: kro5ysync
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: kro5ysync
+    html5-app-version: 1.0.76
+- name: libflexusv2
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: libflexusv2
+    html5-app-version: '20241211113725'
+- name: libjsixv2
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: libjsixv2
+    html5-app-version: '20241211113725'
+- name: libkendov2
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: libkendov2
+    html5-app-version: '20241211113725'
+- name: libkro
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: libkro
+    html5-app-version: '20241211113725'
+- name: linksync
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: linksync
+    html5-app-version: 1.0.1
+- name: mbf10669
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: mbf10669
+    html5-app-version: 1.0.1
+- name: sidenav
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: sidenav
+    html5-app-version: 1.0.19
+- name: swisskronolight2
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: swisskronolight2
+    html5-app-version: '20241211113725'
+- name: updateplugin
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: updateplugin
+    html5-app-version: 1.0.35
+- name: woodvpib
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: woodvpib
+    html5-app-version: 1.0.25
+- name: woodvplim
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: woodvplim
+    html5-app-version: 1.0.10
+- name: woodvpro
+  type: com.sap.fiori.app
+  path: html5-app-folder
+  build-parameters:
+    builder: zip, grunt, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+    grunt-opts:
+    - clean
+  parameters:
+    html5-app-name: woodvpro
+    html5-app-version: 1.0.8
+- name: Default
+  type: com.sap.fiori
+  path: portal-site-content-folder
+  build-parameters:
+    builder: zip, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+  parameters:
+    export-name: Default
+    export-site-id: 7dae24f7-1b11-4384-b494-723606f2ddaf
+- name: flp
+  type: com.sap.fiori
+  path: portal-site-content-folder
+  build-parameters:
+    builder: zip, fetcher (choose one)
+    fetcher-opts:
+      repo-type: maven
+      repo-coordinates: group-id:artifact-id:version:type:classifier
+  parameters:
+    export-name: flp
+    export-site-id: 48a3ce66-b9e3-4e24-a0d7-b743a8ce9b76
+  requires:
+  - name: kro55527hn
+  - name: kro55519
+  - name: kro57806
+  - name: woodvpib
+  - name: kro55477
+  - name: kro55408ba
+  - name: kro55269
+  - name: kro5venhis
+  - name: kro55559
+  - name: kro5ladri
+  - name: kro57817ap
+  - name: kro57804
+  - name: kro57857
+  - name: kro5sc
+  - name: kro55407e3
+  - name: kro57801a
+  - name: kro55479s
+  - name: kro55399v
+  - name: kro5lappc
+  - name: sidenav
+  - name: kro55408b
+  - name: kro57817a
+  - name: kro5menude
+  - name: kro5ysync
+  - name: kro55407i1
+  - name: delegatedadmin
+  - name: kro57801
+  - name: updateplugin
+  - name: kro5lapar
+  - name: kro55587te
+  - name: kro55399s
+  - name: kro55225
+  - name: kro55239
+  - name: kro57805
+  - name: kro50667
+  - name: kro50647
+  - name: mbf10669
+  - name: kro55407f
+  - name: kro55226
+  - name: kro57817
+  - name: woodvpro
+  - name: kro57917
+  - name: kro55479
+  - name: kro57808
+  - name: kro57977
+  - name: kro57801b
+  - name: kro58087
+  - name: kro55407c
+  - name: kro55437b
+  - name: kro55577
+  - name: kro5carhis
+  - name: kro55409i1
+  - name: kro55397l
+  - name: kro5lappv
+  - name: kro55409i3
+  - name: kro55226i
+  - name: kro57803
+  - name: kro58007
+  - name: kro5menufr
+  - name: kro55599
+  - name: kro55407e1
+  - name: kro55375
+  - name: kro55378
+  - name: woodvplim
+  - name: kro5userattributes
+  - name: linksync
+  - name: kro57887
+  - name: libflexusv2
+  - name: libjsixv2
+  - name: libkro
+  - name: libkendov2
+  - name: swisskronolight2
+- name: KROC1Driver
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    name: KROC1Driver
+- name: CDC_Administrator_QA
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    name: CDC_Administrator_QA
+- name: KROC1YardSupplier
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Suppliers_PL
+    name: KROC1YardSupplier
+  requires:
+  - name: Suppliers_PL
+- name: AccountDeveloper
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - CDCAdmins
+    name: AccountDeveloper
+  requires:
+  - name: CDCAdmins
+- name: KROK1Driver
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Drivers_FR
+    name: KROK1Driver
+  requires:
+  - name: Drivers_FR
+- name: KROE1Driver_Outbound
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    name: KROE1Driver_Outbound
+- name: KROC1DriverQA
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Drivers_PL
+    name: KROC1DriverQA
+  requires:
+  - name: Drivers_PL
+- name: KRO3YardCarrier
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Carriers_DE
+    name: KRO3YardCarrier
+  requires:
+  - name: Carriers_DE
+- name: KRO5Vendor
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Vendors
+    name: KRO5Vendor
+  requires:
+  - name: Vendors
+- name: KROK1YardSupplier
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Suppliers_FR
+    name: KROK1YardSupplier
+  requires:
+  - name: Suppliers_FR
+- name: CDC_Administrator
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - CDC_DelegAdmin
+    name: CDC_Administrator
+  requires:
+  - name: CDC_DelegAdmin
+- name: KROK1YardCarrier
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Carriers_FR
+    name: KROK1YardCarrier
+  requires:
+  - name: Carriers_FR
+- name: KRO3YardSupplier
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Suppliers_DE
+    name: KRO3YardSupplier
+  requires:
+  - name: Suppliers_DE
+- name: KROK1Driver_Outbound
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Drivers_FR_Out
+    name: KROK1Driver_Outbound
+  requires:
+  - name: Drivers_FR_Out
+- name: KROC1YardCarrier
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Carriers_PL
+    name: KROC1YardCarrier
+  requires:
+  - name: Carriers_PL
+- name: KRO3YardDriver
+  type: com.sap.fiori.role
+  path: dummy
+  parameters:
+    groups:
+    - Drivers_DE
+    name: KRO3YardDriver
+  requires:
+  - name: Drivers_DE
+- name: Suppliers_PL
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Suppliers_PL
+- name: Vendors
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Vendors
+- name: Drivers_PL
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Drivers_PL
+- name: Suppliers_DE
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Suppliers_DE
+- name: CDC_DelegAdmin
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: CDC_DelegAdmin
+- name: Carriers_PL
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Carriers_PL
+- name: Suppliers_FR
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Suppliers_FR
+- name: Drivers_FR
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Drivers_FR
+- name: Carriers_DE
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Carriers_DE
+- name: Drivers_FR_Out
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Drivers_FR_Out
+- name: CDCAdmins
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: CDCAdmins
+- name: Carriers_FR
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Carriers_FR
+- name: Drivers_DE
+  type: com.sap.hcp.group
+  path: dummy
+  parameters:
+    name: Drivers_DE
+- name: S4Q_100
+  type: com.sap.hcp.destination
+  path: dummy
+  parameters:
+    additional-properties:
+      Usage: Backend
+      HTML5.SocketReadTimeoutInSeconds: '120'
+      WebIDEEnabled: 'true'
+      sap-client: '100'
+      WebIDESystem: S4Q
+      WebIDEUsage: odata_abap,ui5_execute_abap,dev_abap
+    authentication: BasicAuthentication
+    description: S4Q Testing - OnPremise
+    name: S4Q_100
+    proxy-type: OnPremise
+    type: HTTP
+    url: https://s4q:443
+    user: S_CDC_BP
+- name: cpv2_plugin_dest
+  type: com.sap.hcp.destination
+  path: dummy
+  parameters:
+    additional-properties:
+      TrustAll: 'true'
+      WebIDEEnabled: 'true'
+      CloudConnectorVersion: '2'
+      WebIDEUsage: plugin_repository
+    authentication: AppToAppSSO
+    description: Portal Service
+    name: cpv2_plugin_dest
+    proxy-type: Internet
+    type: HTTP
+    url: https://portalwebideplugin-nuap0oc0s4.dispatcher.eu2.hana.ondemand.com/
+- name: webide_di
+  type: com.sap.hcp.destination
+  path: dummy
+  parameters:
+    additional-properties:
+      PropagateAccount: 'true'
+      WebIDEEnabled: 'true'
+      CloudConnectorVersion: '2'
+      WebIDEUsage: 'true'
+    authentication: AppToAppSSO
+    description: DevX DI backend
+    name: webide_di
+    proxy-type: Internet
+    type: HTTP
+    url: https://disapwebide-a36tkpi3is.eu2.hana.ondemand.com/
